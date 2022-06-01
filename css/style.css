@@ -1,0 +1,102 @@
+* {
+    max-width: 100%;
+}
+
+body {
+    text-align: center;
+    background-color: #777;
+}
+
+h1 {
+    margin-top: 310px;
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    color: rgb(237, 228, 228);
+}
+
+.one {
+    color: aliceblue;
+}
+
+.two {
+    color: antiquewhite;
+}
+
+.three {
+    color: aqua;
+}
+
+.four {
+    color: aquamarine;
+}
+
+.five {
+    color: blue;
+}
+
+.six {
+    color: blueviolet;
+}
+
+.seven {
+    color: green;
+}
+
+.eight {
+    color: yellow;
+}
+
+.nine {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+}
+
+.container {
+    display: block;
+}
+
+.windows_img {
+    width: 300px;
+    padding-right: 30px;
+}
+
+.windows_img:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.macOS_img {
+    width: 260px;
+}
+
+.macOS_img:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+@media (max-width: 867.98px) {
+    h1 {
+        margin-top: 200px;
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 667.98px) {
+    h1 {
+        margin-top: 100px;
+        font-size: 35px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+}
